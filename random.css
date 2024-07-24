@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('images/bg-image.jpg');
+  background-size: 100%;
+}
+
+.container {
+  padding: 30px;
+  width: max-content;
+  height: max-content;
+  background-color: rgba(255, 255, 255, 0.551);
+  border-radius: 15px;
+  max-width: 60%;
+  text-align: center;
+}
+
+.quote {
+ display: flex;
+}
+
+#quote-image {
+  width: 70px;
+  height: 70px;
+  padding-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
